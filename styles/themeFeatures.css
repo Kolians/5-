@@ -1,0 +1,36 @@
+.themeFeatures {
+	height: 15%;
+	max-width: 100%;
+	width: 1200px;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+
+.themeFeatures {
+	margin-top: 1%;
+}
+
+.themeFeatures .flexContainter {
+	margin: auto auto;
+	justify-content: space-between;
+	width: 80%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	display: flex;
+	-webkit-flex-flow: wrap;
+}
+
+.themeFeatures .flexContainter li {
+	font-family: HelveticaNeue;
+	list-style-image: url(../img/themeFeatures/box.png);
+	font-size: 12px;
+	line-height: 1.5;
+	color: rgb(65, 65, 65);
+	margin-left: 13px;
+}
+
+.themeFeatures img {
+	display: block;
+	margin: auto;
+	max-width: 90%;
+}

@@ -1,0 +1,70 @@
+.keyFeatures {
+	height: 8%;
+	max-height: 8%;
+	max-width: 100%;
+	width: 1200px;
+}
+
+.keyFeatures .flexContainter {
+	width: 80%;
+    display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	margin: auto auto;
+	margin-bottom: 5%;
+}
+
+.keyFeatures .flexContainter img {
+	display: block;
+	float: left;
+}
+
+.keyFeatures .flexContainter article {
+	margin-top: 3%;
+	margin-right: 5%;  /* Wooooooah */
+}
+
+.keyFeatures .flexContainter article p {
+	display: block;
+	float: left;
+	overflow: visible;
+	margin-left: 30px;
+	font-size: 12px;
+	font-family: HelveticaNeue;
+	color: rgb(118, 118, 118);
+	line-height: 1.5;
+}
+
+.keyFeatures .flexContainter #star {
+	height: 50px;
+	width: 53px;
+	background: url(../img/keyFeatures/star.png);
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+ 
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+ 
+    overflow:hidden;
+}
+
+.keyFeatures .flexContainter #magnify {
+	height: 48px;
+	width: 50px;
+	background: url(../img/keyFeatures/magnifyglass.png);
+    
+}
+
+.keyFeatures .flexContainter #gadget {
+	height: 52px;
+	width: 52px;
+	background: url(../img/keyFeatures/gadget.png);
+}
+
+/*.keyFeatures .flexContainter #star:active {
+	animation: rotate .6s linear  ;
+}*/
